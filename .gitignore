@@ -1,6 +1,5 @@
 # Object files
 *.o
-*.ko
 
 # Libraries
 *.lib
@@ -16,3 +15,20 @@
 *.exe
 *.out
 *.app
+
+# Release Dateien
+*.elf
+*.lss
+*.map
+*.d
+*.mk
+*.epp
+*.hex
+
+# Eclipse
+.settings/
+Release/
+Debug/
+
+.project
+.cproject
